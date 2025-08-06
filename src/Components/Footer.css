@@ -1,0 +1,48 @@
+/* src/Components/Footer.css */
+.footer {
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 1px solid black;
+  color: #444;
+}
+
+.footer-nav,
+.footer-contact {
+  margin: 10px 0;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid tr;
+  font-weight: 500;
+}
+
+.footer-nav a:hover {
+  color: white;
+  background-color: #63039b;
+  animation: bounce_613 0.4s linear;
+}
+
+.footer-credits {
+  font-size: 14px;
+  margin: 10px 0;
+  color: white;
+}
+
+.footer-contact a {
+  margin: 0 10px;
+  color: #444;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer-contact a:hover {
+  color: white;
+  transform: scale(2);
+  background-color: #1a1e22;
+  animation: bounce_613 0.4s linear;
+}

@@ -1,0 +1,66 @@
+/* Leaderboard.css */
+
+.leaderboard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #f9f4ff;
+  border: 2px solid #d5bfff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(144, 99, 255, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leaderboard-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #6b38fb;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.leaderboard-container p {
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+}
+
+.leaderboard-container ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: rank;
+}
+
+.leaderboard-container li {
+  background: #fff;
+  margin: 0.6rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 6px solid #a478f1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.05rem;
+}
+
+.leaderboard-container li strong {
+  color: #333;
+}
+
+.leaderboard-container li:nth-child(1) {
+  border-left-color: gold;
+  font-weight: bold;
+  background: #fffbe6;
+}
+
+.leaderboard-container li:nth-child(2) {
+  border-left-color: silver;
+  background: #f4f4f4;
+}
+
+.leaderboard-container li:nth-child(3) {
+  border-left-color: #cd7f32; /* Bronze */
+  background: #fff2e6;
+}
