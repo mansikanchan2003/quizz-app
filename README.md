@@ -23,6 +23,16 @@ An interactive and user-friendly web application that allows users to **create**
 - **Deployment:** GitHub Pages (or Netlify)
 
 ---
+## 📸 Screenshots
+
+| Home Page | Quiz Page |
+|-----------|-----------|
+| ![Home](./ScreenShots/HomePage.png) | ![Quiz](./ScreenShots/Quiz.png) |
+
+| Leaderboard | Certificate |
+|-------------|-------------|
+| ![Leaderboard](./ScreenShots/Leaderboard.png) | ![Certificate](./ScreenShots/Certificate.png) |
+
 
 ## 🔧 Setup Instructions
 
