@@ -1,16 +1,40 @@
-<<<<<<< HEAD
-# quizz-app
-=======
-# React + Vite
+# Quizz App 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and user-friendly web application that allows users to **create**, **attempt**, and **share quizzes**. Built with React + Firebase, this app supports real-time quiz results, leaderboards, and downloadable certificates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 Attempt multiple quizzes with live scoring
+- 📝 Create your own quizzes with custom questions and answers
+- 🏆 Leaderboard for top scores
+- 🖨️ Downloadable certificate after quiz completion
+- 🔐 Firebase Authentication (Login/Signup)
+- 📂 Data storage with Firebase Firestore
+- 📱 Responsive design for all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> e4e9fb1 (Initial commit)
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, CSS
+- **Backend/Database:** Firebase Authentication + Firestore
+- **Deployment:** GitHub Pages (or Netlify)
+
+---
+
+## 🔧 Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/mansikanchan2003/quizz-app.git
+
+# Navigate to the project directory
+cd quizz-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
